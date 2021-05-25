@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\FN_CoreUObject_functions.cpp">
+      <Filter>SDK\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Engine_functions.cpp">
+      <Filter>SDK\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Basic.cpp">
+      <Filter>SDK\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_FortniteGame_functions.cpp">
+      <Filter>SDK\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SDK\FN_CoreUObject_parameters.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_structs.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_classes.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_parameters.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_structs.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_classes.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Basic.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_classes.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_parameters.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_structs.hpp">
+      <Filter>SDK\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{6c0216e2-9807-4074-9531-0f2546b55831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{9671374c-aee3-4fe5-b85d-f32476baa33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{98034764-a9d2-42d6-9770-6492d6b188c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{c8ee0aa1-bb6e-4e3e-b998-3295eaa93dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Game">
+      <UniqueIdentifier>{1fa2ce68-f0bb-4649-9518-cb15a04cab36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
